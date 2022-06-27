@@ -7,7 +7,7 @@
 > [Zillion](https://github.com/DevZillion) for doing the device tree.
 
 ### How to install
-> Flash the lastest .tar release from [releases](https://github.com/Galaxy-MT6768/android_device_samsung_a31nsxx/releases), it may require Magisk patched vbmeta.img
+> Flash the latest .tar release from [releases](https://github.com/Galaxy-MT6768/android_device_samsung_a31nsxx/releases), it may require Magisk patched vbmeta.img
 > 
 > Hold the recovery combination (Volume Up + Power) while the .tar is flashing via the odin tool.
 > 
@@ -15,4 +15,4 @@
 > 
 > After that go to ``Wipe > Format Data``, all your data will be lost.
 > 
-> You can now boot into your system and do wathever you want.
+> You can now boot into your system and do whatever you want.
