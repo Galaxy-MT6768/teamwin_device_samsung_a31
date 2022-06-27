@@ -1,0 +1,6 @@
+ro.display.series=Samsung A31
+ro.product.board=k68v1_64_titan
+ro.board.platform=mt6768
+sys.usb.controller=musb-hdrc
+ro.boot.dynamic_partitions=true
+ro.boot.boot_devices=bootdevice,11230000.mmc
