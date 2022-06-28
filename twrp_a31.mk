@@ -21,6 +21,7 @@ PRODUCT_RELEASE_NAME := a31
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit some common TWRP stuff.
+# For PitchBlack use vendor/pb/config/common.mk
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit device configuration
