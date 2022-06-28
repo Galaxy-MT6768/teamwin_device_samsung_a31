@@ -165,3 +165,9 @@ SHRP_FLASH := 1
 SHRP_CUSTOM_FLASHLIGHT := true
 SHRP_FONP_1 := /sys/devices/virtual/camera/flash/rear_flash
 SHRP_FLASH_MAX_BRIGHTNESS := 1
+
+# PBRP
+PB_TORCH_PATH := "/sys/devices/virtual/camera/flash/rear_flash"
+PB_TORCH_MAX_BRIGHTNESS := 1
+MAINTAINER := Zillion
+PB_GO := TRUE
