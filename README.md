@@ -17,7 +17,7 @@ Run ``chmod +x device/samsung/a31/mkbootimg`` to avoid building issues.
 > 
 > Hold the recovery combination (Volume Up + Power) while the .tar is flashing via the odin tool.
 > 
-> When booted up into twrp got to ``Advanced > Terminal`` and type ``multidisabler --all``.
+> When booted up into twrp got to ``Advanced > Terminal`` and type ``multidisabler --all``, if you want to keep your unlock pattern/pin type ``multidisabler --disable-stockrec-override`` instead.
 > 
 > After that go to ``Wipe > Format Data``, all your data will be lost.
 > 
