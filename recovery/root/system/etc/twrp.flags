@@ -31,7 +31,7 @@
 /data		f2fs		/dev/block/by-name/userdata							flags=length=-16384
 /cache		ext4		/dev/block/by-name/cache							flags=backup=1;display="Cache"
 /carrier	ext4		/dev/block/platform/bootdevice/by-name/carrier
-/preload	ext4		/dev/block/platform/bootdevice/by-name/hidden
+#/preload	ext4		/dev/block/platform/bootdevice/by-name/hidden
 
 # Physical partitions - Important Data - Must Backup
 /efs		ext4		/dev/block/by-name/efs								flags=backup=1;display="EFS"
