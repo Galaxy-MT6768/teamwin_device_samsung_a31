@@ -1,7 +1,7 @@
 # Samsung Galaxy A31 [SM-A315G] - Team Win Recovery Project
 
 ```diff
-- TWRP Status: Bugfixing, experimental. 
+- TWRP Status: Bugfixing, experimental, unstable. 
 ```
 
 Run ``chmod +x device/samsung/a31/mkbootimg`` to avoid building issues.
