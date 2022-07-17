@@ -6,10 +6,11 @@
 ```
 
 Run ``chmod +x device/samsung/a31/mkbootimg`` to avoid building issues.
+Build with twrp-11 to avoid the recovery.img being bigger than the partition.
 ### Special thanks to:
 > [TeamWin](https://github.com/TeamWin) for the Recovery Project.
 > 
-> [Physwizz](https://github.com/physwizz) for his [a315g kernel](https://github.com/physwizz/a315g).
+> [Physwizz](https://github.com/physwizz) for his [a315g-S kernel](https://github.com/physwizz/a315g-S) (ligther version was used on this tree).
 >
 > [Zillion](https://github.com/DevZillion) for doing the device tree.
 
@@ -18,8 +19,6 @@ Run ``chmod +x device/samsung/a31/mkbootimg`` to avoid building issues.
 > 
 > Hold the recovery combination (Volume Up + Power) while the .tar is flashing via the odin tool.
 > 
-> When booted up into twrp got to ``Advanced > Terminal`` and type ``multidisabler --all``, if you want to keep your unlock pattern/pin type ``multidisabler --disable-stockrec-override`` instead.
-> 
-> After that go to ``Wipe > Format Data``, all your data will be lost.
+> Flash any multidisabler that has been tested on a31. 
 > 
 > You can now boot into your system and do whatever you want.
