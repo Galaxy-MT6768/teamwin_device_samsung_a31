@@ -72,6 +72,7 @@ BOARD_MKBOOTIMG_ARGS := \
 	--dtb_offset $(BOARD_DTB_OFFSET) \
 	--recovery_dtbo $(BOARD_PREBUILT_DTBOIMAGE)
 
+BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/bootimg.mk
 
 # Recovery

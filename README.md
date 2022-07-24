@@ -5,7 +5,6 @@
 - Releases tagged as "Pre-release" are considered experimental and may cause more unexpected stuff than the latest release, nobody is forced to support your in older releases.
 ```
 
-Run ``chmod +x device/samsung/a31/mkbootimg`` to avoid building issues.
 Build with twrp-11 to avoid the recovery.img being bigger than the partition.
 ### Special thanks to:
 > [TeamWin](https://github.com/TeamWin) for the Recovery Project.
