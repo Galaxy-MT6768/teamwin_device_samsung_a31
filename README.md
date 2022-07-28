@@ -1,4 +1,4 @@
-# Samsung Galaxy A31 [SM-A315G] - Team Win Recovery Project
+# Samsung Galaxy A31 [SM-A315G/F] - Team Win Recovery Project
 
 ```diff
 - TWRP Status: Bugfixing, experimental, unstable. 
