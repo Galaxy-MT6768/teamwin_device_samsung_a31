@@ -4,6 +4,7 @@
 - TWRP Status: Bugfixing, experimental, unstable. 
 - Releases tagged as "Pre-release" are considered experimental and may cause more unexpected stuff than the latest release, nobody is forced to support your in older releases.
 ```
+Set the ``TW_CUSTOM_THEME``flag for a custom theme.
 
 Run ``chmod +x device/samsung/a31/mkbootimg`` to avoid building issues.
 ### Special thanks to:
