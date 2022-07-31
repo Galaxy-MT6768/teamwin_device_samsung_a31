@@ -4,6 +4,6 @@ vendor                                               /vendor       ext4        r
 product                                              /product      ext4        ro,barrier=1,discard      avb,logical,first_stage_mount
 odm                                                  /odm          ext4        ro,barrier=1,discard      avb,logical,first_stage_mount
 
-/dev/block/by-name/metadata                          /metadata     ext4        defaults                  wait,first_stage_mount
-/dev/block/platform/bootdevice/by-name/userdata      /data         f2fs        defaults                  wait,length=-16384
-/dev/block/platform/bootdevice/by-name/misc          /misc         emmc      defaults                    recoveryonly
+/dev/block/platform/bootdevice/by-name/md_udc      /metadata     ext4        defaults                  wait,first_stage_mount
+/dev/block/by-name/userdata      		   /data         f2fs        defaults                  wait,length=-16384
+/dev/block/by-name/misc          		   /misc         emmc        defaults                  recoveryonly
