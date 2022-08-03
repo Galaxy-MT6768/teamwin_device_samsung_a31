@@ -129,9 +129,6 @@ TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 200
 TW_USE_SAMSUNG_HAPTICS := true
-# Remove these flash when building SHRP
-TW_Y_OFFSET := 80
-TW_H_OFFSET := -80
 
 # TWRP Settings
 TW_NO_REBOOT_BOOTLOADER := true
@@ -174,3 +171,23 @@ SHRP_FLASH := 1
 SHRP_CUSTOM_FLASHLIGHT := true
 SHRP_FONP_1 := /sys/devices/virtual/camera/flash/rear_flash
 SHRP_FLASH_MAX_BRIGHTNESS := 1
+
+SHRP_SKIP_DEFAULT_ADDON_1 := true
+SHRP_SKIP_DEFAULT_ADDON_2 := true
+SHRP_SKIP_DEFAULT_ADDON_3 := true
+SHRP_SKIP_DEFAULT_ADDON_4 := true
+INC_IN_REC_MAGISK := true
+
+SHRP_EXTERNAL_ADDON_1_NAME := "Disable AVB 2.0"
+SHRP_EXTERNAL_ADDON_1_INFO := "Patch your vbmeta.img!"
+SHRP_EXTERNAL_ADDON_1_FILENAME := "avb_patcher.zip"
+SHRP_EXTERNAL_ADDON_1_BTN_TEXT := "Patch vbmeta"
+SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Successfully patched."
+SHRP_INC_IN_REC_EXTERNAL_ADDON_1 := true
+
+SHRP_EXTERNAL_ADDON_2_NAME := "Install Custom Galalaxy Boot Animation"
+SHRP_EXTERNAL_ADDON_2_INFO := "Installs you the Japanese Galaxy Boot Animation"
+SHRP_EXTERNAL_ADDON_2_FILENAME := "galaxybootanim.zip"
+SHRP_EXTERNAL_ADDON_2_BTN_TEXT := "Install"
+SHRP_EXTERNAL_ADDON_2_SUCCESSFUL_TEXT := "Successfully Installed."
+SHRP_INC_IN_REC_EXTERNAL_ADDON_2 := true
