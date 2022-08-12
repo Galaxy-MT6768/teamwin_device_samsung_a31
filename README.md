@@ -24,3 +24,41 @@ Run ``chmod +x device/samsung/a31/mkbootimg`` to avoid building issues.
 > Flash any multidisabler that has been tested on a31. 
 > 
 > You can now boot into your system and do whatever you want.
+
+### Working Features List
+>
+> - [x] Critial Partitions fail to unlock
+>
+> **Blocking checks**
+> - [x] Correct screen/recovery size
+> - [x] Working Touch, screen
+> - [x] Backup to internal/microSD
+> - [x] Restore from internal/microSD
+> - [x] reboot to system
+> - [x] ADB
+>
+> **Medium checks**
+> - [ ] update.zip sideload
+> - [x] UI colors (red/blue inversions)
+> - [x] Screen goes off and on
+> - [x] F2FS/EXT4 Support, exFAT/NTFS where supported
+> - [x] all important partitions listed in mount/backup lists
+> - [x] backup/restore to/from external (USB-OTG) storage
+> - [x] backup/restore to/from adb (https://gerrit.omnirom.org/#/c/15943/)
+> - [ ] decrypt /data
+> - [x] Correct date
+>
+> **Minor checks**
+> - [ ] MTP export
+> - [x] reboot to bootloader (download)
+> - [x] reboot to recovery
+> - [x] poweroff
+> - [x] battery level
+> - [x] temperature
+> - [ ] encrypted backups
+> - [x] input devices via USB (USB-OTG) - keyboard, mouse and disks
+> - [ ] USB mass storage export
+> - [x] set brightness
+> - [x] vibrate
+> - [x] screenshot
+> - [ ] partition SD card
