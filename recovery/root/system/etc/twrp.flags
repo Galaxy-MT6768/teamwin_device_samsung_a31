@@ -30,12 +30,12 @@
 /data			f2fs		/dev/block/by-name/userdata							flags=length=-16384;fileencryption=aes-256-xts:aes-256-cts:v1
 
 # Physical partitions - Important Data - Must Backup
-/efs			ext4		/dev/block/by-name/efs								flags=backup=1;display="IMEI"
+/efs			ext4		/dev/block/by-name/efs								flags=backup=1;display="EFS"
 /sec_efs		ext4		/dev/block/by-name/sec_efs							flags=backup=1;subpartitionof=/efs
-/nvram			emmc		/dev/block/by-name/nvram							flags=backup=1;subpartitionof=/efs
-/nvdata			ext4		/dev/block/by-name/nvdata							flags=backup=1;subpartitionof=/efs
-/nvcfg			ext4		/dev/block/by-name/nvcfg							flags=backup=1;subpartitionof=/efs
-/persistent		emmc		/dev/block/platform/bootdevice/by-name/persistent	flags=backup=1subpartitionof=/efs
+/nvram			emmc		/dev/block/by-name/nvram							flags=backup=1;display="NVRAM"
+/nvdata			ext4		/dev/block/by-name/nvdata							flags=backup=1;subpartitionof=/nvram
+/nvcfg			ext4		/dev/block/by-name/nvcfg							flags=backup=1;subpartitionof=/nvram
+/persistent		emmc		/dev/block/platform/bootdevice/by-name/persistent	flags=backup=1subpartitionof=/nvram
 # CP Slot a.k.a baseband image
 /md1img			emmc		/dev/block/platform/bootdevice/by-name/md1img		flags=backup=1;display="Baseband"
 
