@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a31/recover
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := twrp_a31
 PRODUCT_DEVICE := a31
-PRODUCT_MODEL := SM-A315G
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
