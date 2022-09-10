@@ -1,8 +1,8 @@
 # Symlinked partitions
-/system_image	emmc		/dev/block/mapper/system							flags=backup=0;flashimg;wipeingui;display="System Image"
-/vendor_image	emmc		/dev/block/mapper/vendor							flags=backup=0;flashimg;wipeingui;display="Vendor Image"
-/product_image	emmc		/dev/block/mapper/product							flags=backup=0;flashimg;wipeingui;display="Product Image"
-/odm_image		emmc		/dev/block/mapper/odm								flags=backup=0;flashimg;wipeingui;display="Odm Image"
+/system_image	emmc		/dev/block/mapper/system							flags=backup=0;flashimg;display="System Image"
+/vendor_image	emmc		/dev/block/mapper/vendor							flags=backup=0;flashimg;display="Vendor Image"
+/product_image	emmc		/dev/block/mapper/product							flags=backup=0;flashimg;display="Product Image"
+/odm_image		emmc		/dev/block/mapper/odm								flags=backup=0;flashimg;display="Odm Image"
 
 # Samsung ODE
 /keydata		ext4		/dev/block/platform/bootdevice/by-name/keydata
@@ -26,7 +26,7 @@
 /vbmeta_samsung	emmc		/dev/block/by-name/vbmeta_samsung					flags=backup=1;display="Vbmeta Samsung";flashimg=1
 
 # Physical partitions - Data
-/metadata		ext4		/dev/block/platform/bootdevice/by-name/md_udc		flags=display="Metadata"
+/metadata		ext4		/dev/block/platform/bootdevice/by-name/md_udc		flags=wipeingui;display="Metadata"
 /data			f2fs		/dev/block/by-name/userdata							flags=length=-16384
 
 # Physical partitions - Important Data - Must Backup
