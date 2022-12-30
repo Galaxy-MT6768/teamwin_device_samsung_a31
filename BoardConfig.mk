@@ -129,9 +129,6 @@ TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 200
 TW_USE_SAMSUNG_HAPTICS := true
-# Remove these flash when building SHRP
-TW_Y_OFFSET := 80
-TW_H_OFFSET := -80
 
 # TWRP Settings
 TW_NO_REBOOT_BOOTLOADER := true
