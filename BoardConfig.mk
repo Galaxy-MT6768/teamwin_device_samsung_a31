@@ -174,3 +174,22 @@ SHRP_FLASH := 1
 SHRP_CUSTOM_FLASHLIGHT := true
 SHRP_FONP_1 := /sys/devices/virtual/camera/flash/rear_flash
 SHRP_FLASH_MAX_BRIGHTNESS := 1
+
+# Addons
+SHRP_SKIP_DEFAULT_ADDON_4 := true
+# Custom Addons
+SHRP_EXTERNAL_ADDON_PATH := "device/samsung/$(SHRP_DEVICE_CODE)/addons/"
+# Addon #1
+SHRP_EXTERNAL_ADDON_1_NAME := "FBE Disabler"
+SHRP_EXTERNAL_ADDON_1_INFO := "A zip that will disable FBE for your A31."
+SHRP_EXTERNAL_ADDON_1_FILENAME := fbe_disabler.zip
+SHRP_EXTERNAL_ADDON_1_BTN_TEXT := "Disable"
+SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Disabled"
+SHRP_INC_IN_REC_EXTERNAL_ADDON_1 := true
+# Addon #2
+SHRP_EXTERNAL_ADDON_2_NAME := "FBE Enabler"
+SHRP_EXTERNAL_ADDON_2_INFO := "A zip that will re-enable FBE for your A31."
+SHRP_EXTERNAL_ADDON_2_FILENAME := fbe_enabler.zip
+SHRP_EXTERNAL_ADDON_2_BTN_TEXT := "Enable"
+SHRP_EXTERNAL_ADDON_2_SUCCESSFUL_TEXT := "Enabled"
+SHRP_INC_IN_REC_EXTERNAL_ADDON_2 := true
