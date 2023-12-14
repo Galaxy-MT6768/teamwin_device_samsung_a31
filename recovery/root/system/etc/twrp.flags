@@ -27,6 +27,7 @@
 
 # Physical partitions - Data
 /metadata		ext4		/dev/block/platform/bootdevice/by-name/md_udc		flags=wipeingui;display="Metadata"
+/cache		ext4		/dev/block/platform/bootdevice/by-name/cache		flags=wipeingui;display="Cache"
 /data			f2fs		/dev/block/by-name/userdata							flags=length=-16384
 
 # Physical partitions - Important Data - Must Backup
