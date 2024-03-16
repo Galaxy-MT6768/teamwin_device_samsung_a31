@@ -38,7 +38,7 @@ Run ``chmod +x device/samsung/a31/mkbootimg`` to avoid building issues.
 > - [x] ADB
 >
 > **Medium checks**
-> - [ ] update.zip sideload
+> - [x] update.zip sideload
 > - [x] UI colors (red/blue inversions)
 > - [x] Screen goes off and on
 > - [x] F2FS/EXT4 Support, exFAT/NTFS where supported
@@ -49,7 +49,7 @@ Run ``chmod +x device/samsung/a31/mkbootimg`` to avoid building issues.
 > - [x] Correct date
 >
 > **Minor checks**
-> - [ ] MTP export
+> - [x] MTP export
 > - [x] reboot to bootloader (download)
 > - [x] reboot to recovery
 > - [x] poweroff
